@@ -41,7 +41,7 @@ namespace popcnt {
 	**/
 	int element_count(int size) {
 		int ele_cnt = 0;
-		if (size == 0) {
+		if (size % 32 == 0) {
 			ele_cnt = size / 32;
 		}
 		else ele_cnt = int(size / 32) + 1;
