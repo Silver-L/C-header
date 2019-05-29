@@ -17,4 +17,3 @@
 #### Functions:
 	1. Read: mhd to std::vector
 	2. Write: std::vector to mhd_and_raw
-	3. Write: std::vector to mhd_and_raw
